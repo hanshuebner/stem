@@ -9,6 +9,9 @@
 
 (defsystem :stem
   :name "stem"
+  :description "The Porter Stemming Algorithm"
+  :author "Steve Haflich <@gmail.com>"
+  :license "Probably LLGPL"
   :version "0"
   
   :components ((:file "stem")))
